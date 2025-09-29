@@ -21,5 +21,9 @@ git commit --amend --no-edit
 ```bash
 git rebase -i HEAD~2
 ```
+### 3. Keeping History Tidy - Squashing Commits:
+```bash
+git rebase -i HEAD~2
+```
 
 
