@@ -25,5 +25,16 @@ git rebase -i HEAD~2
 ```bash
 git rebase -i HEAD~2
 ```
+### 4. Splitting a Commit:
+```bash
+git rebase -i --root
+git reset HEAD^
+git add test3.md
+git commit -m "chore: Create third file"
+git add test4.md
+git commit -m "chore: Create fourth file"
+git rebase --continue
+git log --oneline
+```
 
 
