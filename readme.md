@@ -50,6 +50,15 @@ git rebase -i HEAD~2
 ```bash
 git rebase -i HEAD~2
 ```
+### 8. Cherry-Picking Commits:
+```bash
+git checkout ft/branch
+git add test5.md
+git commit -m "implemented test 5"
+git log --oneline
+git checkout main
+git cherry-pick 6d52225
+```
 
 
 
