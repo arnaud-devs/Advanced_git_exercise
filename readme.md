@@ -17,4 +17,9 @@ git log
 git add test4.md
 git commit --amend --no-edit
 ```
+### 2. Editing Commit history:
+```bash
+git rebase -i HEAD~2
+```
+
 
