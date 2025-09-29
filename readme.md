@@ -40,6 +40,12 @@ git log --oneline
 ```bash
 git rebase -i HEAD~2
 ```
+### 6. Dropping a Commit:
+```bash
+git add unwanted.txt
+git commit -m "Unwanted commit"
+git rebase -i HEAD~2
+```
 
 
 
