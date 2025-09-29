@@ -36,5 +36,10 @@ git commit -m "chore: Create fourth file"
 git rebase --continue
 git log --oneline
 ```
+### 5. Advanced Squashing:
+```bash
+git rebase -i HEAD~2
+```
+
 
 
