@@ -59,6 +59,10 @@ git log --oneline
 git checkout main
 git cherry-pick 6d52225
 ```
+### 9. Visualizing Commit History (Bonus):
+```bash
+git log --graph
+```
 
 
 
