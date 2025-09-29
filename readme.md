@@ -46,6 +46,10 @@ git add unwanted.txt
 git commit -m "Unwanted commit"
 git rebase -i HEAD~2
 ```
+### 7. Reordering Commits:
+```bash
+git rebase -i HEAD~2
+```
 
 
 
